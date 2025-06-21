@@ -35,7 +35,7 @@ void CMyGroup::addChildren(CMyShape* shape) {
 	CRect boundingBox = children[0]->getBoundingBox();
 
 	for (int i = 1; i < children.size(); i++) {
-		boundingBox |= children[i]->getBoundingBox();
+		boundingBox.UnionRect(boundingBox, children[i]->getBoundingBox());
 	}
 
 	setBoundingBox(boundingBox);
