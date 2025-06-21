@@ -27,9 +27,9 @@ void CMyStar::update(CPoint start, CPoint end) {
 	double dx = end.x - start.x;
 	double dy = end.y - start.y;
 
-	double outerRadius = sqrt(dx * dx + dy * dy);
-	double innerRadius = outerRadius * 0.5;
 	int numPoints = 5;
+	double outerRadius = sqrt(dx * dx + dy * dy);
+	double innerRadius = outerRadius * 0.382f;
 
 	for (int i = 0; i < numPoints * 2; i++) {
 		double angle = i * PI / numPoints - PI / 2;
