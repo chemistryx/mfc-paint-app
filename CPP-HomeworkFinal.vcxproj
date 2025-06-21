@@ -305,6 +305,7 @@
     <ResourceCompile Include="CPPHomeworkFinal.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <None Include="res\CPPHomeworkFinal.rc2" />
   </ItemGroup>
   <ItemGroup>

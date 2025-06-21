@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CMyShapeManager">
+    <Position X="18.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIE0BRgCAAAgAQoQAAAAAAiMgEACAAAAAAAwAAAADCg=</HashCode>
+      <FileName>CMyShapeManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyShape">
+    <Position X="12.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAgAAgQAEEAAAAAAiIAAAAAAAEAgAAgGAAAAgAEAAA=</HashCode>
+      <FileName>CMyShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyStar">
+    <Position X="10.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAgAACAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>CMyStar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyCircle">
+    <Position X="12.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAAAAAAIAAAAAAAIAAAAAAAAAIAAAAAAAAAAEAAA=</HashCode>
+      <FileName>CMyCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyCurve">
+    <Position X="16.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAACAAAAAAAAAABIIAAAAAEAACAAAAIAAAAAEAAA=</HashCode>
+      <FileName>CMyCurve.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyGroup">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAAAAAAAIgAQAAAIAAEAAAAAAAAAAAEAAAAAEAAA=</HashCode>
+      <FileName>CMyGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyRectangle">
+    <Position X="8.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAAAAAAAAAAAAAAIAAIAAAAAAAAAAACAAAAAEAAA=</HashCode>
+      <FileName>CMyRectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DrawingMode">
+    <Position X="16.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>CMyShapeManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DrawingType">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAgAAAAAEAAAA=</HashCode>
+      <FileName>CMyShapeManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
