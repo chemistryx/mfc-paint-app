@@ -22,6 +22,7 @@ void CMyRectangle::draw(CDC* dc) {
 
 void CMyRectangle::update(CPoint start, CPoint end) {
 	CRect boundingBox(start, end);
+	boundingBox.NormalizeRect(); // boundingBox 정규화 (좌표 꼬임 방지)
 
 	setBoundingBox(boundingBox);
 }
